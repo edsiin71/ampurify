@@ -12,22 +12,26 @@
           {
             "title": "Volume Down",
             "uri": "ampurify/down",
-            "icon": "fa fa-volume-down"
+            "icon": "fa fa-volume-down",
+            "type": "streaming-category"
           },
           {
             "title": "Volume Up",
             "uri": "ampurify/up",
-            "icon": "fa fa-volume-up"
+            "icon": "fa fa-volume-up",
+            "type": "streaming-category"
           },
           {
             "title": "Select",
             "uri": "ampurify/sel",
-            "icon": "fa fa-map-signs"
+            "icon": "fa fa-map-signs",
+            "type": "streaming-category"
           },
           {
             "title": "Stand-By",
             "uri": "ampurify/stb",
-            "icon": "fa fa-plug"
+            "icon": "fa fa-plug",
+            "type": "streaming-category"
           }
         ]
         }
