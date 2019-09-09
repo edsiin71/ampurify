@@ -1,0 +1,47 @@
+{
+  "page": {
+    "label": "TRANSLATE.PLUGIN_CONFIGURATION"
+  },
+  "sections": [
+    {
+      "id": "config",
+      "element": "section",
+      "label": "TRANSLATE.CONFIGURATION",
+      "icon": "fa-cogs",
+      "description": "Ampurify",
+      "onSave": {
+        "type": "controller",
+        "endpoint":"music_service/ampurify",
+        "method":"updateConfig"
+      },
+      "saveButton": {
+        "label": "TRANSLATE.SAVE",
+        "data": [
+          "amptype"
+        ]
+      },
+      "content": [
+        {
+          "id": "amptype",
+          "element": "select",
+          "label": "TRANSLATE.CHOOSE_DEVICE_TYPE",
+          "doc": "",
+          "value": {
+            "value": 3,
+            "label": "AP3"
+          },
+          "options": [
+            {
+              "value": 3,
+              "label": "AP3"
+            },
+            {
+              "value": 2,
+              "label": "AP2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

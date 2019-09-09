@@ -1,0 +1,38 @@
+{
+
+  "baseNavigation": {
+    "navigation": {
+      "prev": {
+        "uri": "/"
+      },
+      "lists": [
+        {
+        "availableListViews": [ "grid" ],
+        "items": [
+          {
+            "title": "Volume Down",
+            "uri": "ampurify/down",
+            "icon": "fa fa-volume-down"
+          },
+          {
+            "title": "Volume Up",
+            "uri": "ampurify/up",
+            "icon": "fa fa-volume-up"
+          },
+          {
+            "title": "Select",
+            "uri": "ampurify/sel",
+            "icon": "fa fa-map-signs"
+          },
+          {
+            "title": "Stand-By",
+            "uri": "ampurify/stb",
+            "icon": "fa fa-plug"
+          }
+        ]
+        }
+      ]
+    }
+  }
+
+}
